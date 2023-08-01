@@ -11,7 +11,7 @@
 #
 
 # Uncomment the line if you want fastlane to automatically update itself
-# update_fastlanefastlane beta
+# update_fastlanefastlane betaaa
 
 default_platform(:android)
 

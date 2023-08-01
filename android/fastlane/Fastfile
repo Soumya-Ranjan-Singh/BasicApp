@@ -11,13 +11,7 @@
 #
 
 # Uncomment the line if you want fastlane to automatically update itself
-# update_fastlane
-
-before_all do
-  ensure_git_branch
-  ensure_git_status_clean
-  git_pull
-end
+# update_fastlanefastlane beta
 
 default_platform(:android)
 
@@ -30,7 +24,6 @@ platform :android do
   desc "Submit a new Beta Build to Crashlytics Beta"
   lane :beta do
     gradle(task: "clean assembleRelease")
-    crashlytics
   
     # sh "your_script.sh"
     # You can also use other beta testing services here

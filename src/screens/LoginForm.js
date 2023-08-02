@@ -8,7 +8,7 @@ import axios from 'axios';
 
 const Item = ({item}) => (
   <View style={{margin: 10}}>
-    <Text style={{color: 'black'}}>{item.email}</Text>
+    <Text style={{color: 'blue'}}>{item.email}</Text>
     <Text style={{color: 'black'}}>{item.password}</Text>
   </View>
 );

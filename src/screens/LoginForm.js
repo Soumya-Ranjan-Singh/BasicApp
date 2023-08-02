@@ -69,6 +69,7 @@ const LoginForm = ({ navigation }) => {
         placeholderTextColor="black"
         style={{ borderColor: 'black', borderWidth: 1, color: 'black' }}
       />
+      <Text>Welcome To The App</Text>
       <Button title="Login" onPress={handleLogin} testID='login'/>
       {error ? <Text style={{ color: 'red' }}>{error}</Text> : null}
     </View>

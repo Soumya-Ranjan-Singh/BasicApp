@@ -61,7 +61,7 @@ const LoginForm = ({navigation}) => {
 
   return (
     <View>
-      <Text style={{color: 'blue', fontSize: 35, fontWeight: 'bold'}}>
+      <Text style={{color: 'red', fontSize: 45, fontWeight: 'bold'}}>
         Welcome To App Mode
       </Text>
       <TextInput
